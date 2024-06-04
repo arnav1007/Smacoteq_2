@@ -6,7 +6,7 @@ function Page2_right() {
         <div className="h-full w-full relative flex align-middle justify-center items-center">
             
             <PageNumber number={"02"}/>
-            <Maritime />
+            <Maritime text={Maritime}/>
         </div>
     )
 }
