@@ -1,11 +1,15 @@
 import "./App.css";
+import Page1 from "./Pages/Page1";
+import Page2 from "./Pages/Page2";
+import AppLayout from "./Ui/AppLayout";
 
 function App() {
-  return (
-    <div>
-      <h1 className="bg-red-400 font-mono text-3xl">Hari Om</h1>
-    </div>
-  );
+  return <AppLayout>
+    <Page1 />
+    <Page2 /> 
+    {/* 
+    */}
+  </AppLayout>;
 }
 
 export default App;
