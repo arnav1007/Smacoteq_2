@@ -1,6 +1,6 @@
 function CustomFooter({active}) {
     return (
-        <footer className="flex w-full align-middle justify-between items-center text-footer_light text-[13px]">
+        <footer className="flex pl-14 w-full align-middle justify-between items-center text-footer_light text-[13px]">
             <img src="/lang.png" alt="" height={30} width={30}/>
             <ul className="flex border  border-white   rounded-md px-3 py-1 gap-3">
                 <li className={active === 1 ? "text-white" : ""}>
