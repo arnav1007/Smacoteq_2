@@ -1,11 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Main Deployed Branch : main
+Development Branches : v1 , v2 , v3
+Raw Configured Branch : raw_configured
 
 Dev Dependency is:-
 1)Prettire from https://www.npmjs.com/package/prettier
