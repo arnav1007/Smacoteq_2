@@ -3,12 +3,12 @@ import CustomFooter from "../Components/CustomFooter";
 
 function Page3() {
   return (
-    <div className="bg-page3 h-fit w-screen pt-[10vh]">
-      <div className="flex h-fit w-full ">
+    <div className="bg-page3 h-[100dvh] w-screen pt-[10vh]">
+      <div className="flex h-[80dvh] w-full ">
         <div className=" grid h-full w-4/12 place-content-center my-auto">
           <img src="/Character.png" alt="" />
         </div>
-        <div className="text-light_text_page3 h-full w-8/12 font-ibarra pt-[7dvh]">
+        <div className=" overflow-y-auto text-light_text_page3 h-full w-8/12 font-ibarra pt-[7dvh]">
           <h1 className="text-main text-2xl my-3">eBL-Electronic Bill of Landing Service</h1>
           <div>
             <p>
@@ -55,7 +55,7 @@ function Page3() {
           </p>
         </div>
       </div>
-      <div className="h-[10dvh] w-7/12  flex align-middle justify-center items-center">
+      <div className="h-[10dvh] w-7/12  ">
         <CustomFooter active={2} page3={true}/>
       </div>
     </div>

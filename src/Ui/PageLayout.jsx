@@ -23,7 +23,9 @@ function PageLayout({ children, number }) {
   }, []);
 
   return (
-    <div className="flex h-full w-full">
+    <div className="flex h-full w-full relative">
+      <img src="/block_left_top.png" alt="" className="absolute top-[5dvh] z-10" height={120} width={130}/>
+      <img src="/block_right_bottom.png" alt="" className="absolute right-12 bottom-5 "/>
       <div className="h-full w-11/12">
         <div className="flex h-5/6">
           <div className="h-full w-8/12 overflow-y-hidden" ref={scrollRef}>
