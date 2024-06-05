@@ -11,3 +11,4 @@ Dev Dependency is:-
 1)Prettire from https://www.npmjs.com/package/prettier
 
 Arnav: Changes Made.
+sanket:changes readme.md
