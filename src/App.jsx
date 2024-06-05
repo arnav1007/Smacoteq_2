@@ -1,5 +1,9 @@
-import { useEffect, useRef, useState } from "react";
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import "./App.css";
 import Page1 from "./Pages/Page1";
 import Page2 from "./Pages/Page2";
@@ -7,21 +11,36 @@ import Page3 from "./Pages/Page3";
 import AppLayout from "./Ui/AppLayout";
 import PageLayout from "./Ui/PageLayout";
 
-function App() {
-
-
+function Pages() {
   return (
- 
+    <PageLayout number={"100"}>
+      <Page1 />
+      <Page2 />
+    </PageLayout>
+  );
+}
 
-    <AppLayout>
-      <PageLayout number={"100"}>
-        <Page1 />
-        <Page2 />
-      </PageLayout>
-
-      {/*
-       */}
-    </AppLayout>
+function App() {
+  return (
+    <Router>
+      <AppLayout>
+        <Routes>
+          <Route path="/" element={<Navigate replace to="/ARTH.BHIM" />} />
+          <Route
+            path="/ARTH.BHIM"
+            element={
+              <PageLayout>
+                <Page1 />
+                <Page2/>
+              </PageLayout>
+            }
+          />
+          <Route path="/ARTH.BHIM/:id" element={<Page3 />}>
+            <Route path="WhatWeDo" element={<Page3 />} />
+          </Route>
+        </Routes>
+      </AppLayout>
+    </Router>
   );
 }
 
