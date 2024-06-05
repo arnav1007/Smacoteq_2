@@ -7,7 +7,7 @@ function Page3() {
   return (
     <div className="bg-page3 h-[100dvh] w-screen pt-[10vh] relative">
       <div className="h-[300px] w-[90px] absolute right-5 bottom-1">
-        <Maritime text="BlockChain"/>
+        <Maritime text="BLOCKCHAIN"/>
       </div>
       <div className="flex h-[80dvh] w-full ">
         <div className=" grid h-full w-4/12 place-content-center my-auto">

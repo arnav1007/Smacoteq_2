@@ -1,7 +1,6 @@
-import { useParams } from "react-router";
+import NavLinkButton from "../Ui/NavLinkButton";
 import Burger from "../Ui/Burger";
 import Logo from "../Ui/Logo";
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Header({currectRouteNumber}) {
@@ -15,6 +14,10 @@ function Header({currectRouteNumber}) {
 
       <Logo currectRouteNumber={currectRouteNumber}/>
       </NavLink>
+      <div className="flex space-x-4 ml-auto mr-40 gap-20">
+        <NavLinkButton currectRouteNumber={currectRouteNumber} to="/" text="VISION" />
+        <NavLinkButton currectRouteNumber={currectRouteNumber} to="/ARTH.BHUMI/WhatWeDo" text="ABOUT US" />
+      </div>
       <Burger currectRouteNumber={currectRouteNumber}/>
     </div>
   );
