@@ -21,27 +21,14 @@ function Pages() {
 }
 
 function App() {
-  return (
-    <Router>
-      <AppLayout>
-        <Routes>
-          <Route path="/" element={<Navigate replace to="/ARTH.BHIM" />} />
-          <Route
-            path="/ARTH.BHIM"
-            element={
-              <PageLayout>
-                <Page1 />
-                <Page2/>
-              </PageLayout>
-            }
-          />
-          <Route path="/ARTH.BHIM/:id" element={<Page3 />}>
-            <Route path="WhatWeDo" element={<Page3 />} />
-          </Route>
-        </Routes>
-      </AppLayout>
-    </Router>
-  );
+  // return <AppLayout>
+  //   <Page1 />
+  //   <Page2 /> 
+    
+  //   {/* 
+  //   */}
+  // </AppLayout>;
+  return <Page3></Page3>
 }
 
 export default App;
