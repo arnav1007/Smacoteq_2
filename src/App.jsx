@@ -37,8 +37,8 @@ function App() {
               </PageLayout>
             }
           />
-          <Route path="/ARTH.BHIM/:id" >
-            <Route path="WhatWeDo" element={<Page3 />} />
+          <Route path="/ARTH.BHIM/WhatWeDo" element={<Page3 />}>
+            
           </Route>
         </Routes>
       </AppLayout>
