@@ -1,3 +1,4 @@
+import { useParams } from "react-router"
 import Header from "../Components/Header"
 
 function AppLayout({children , currectRouteNumber }) {
