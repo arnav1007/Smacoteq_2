@@ -1,8 +1,6 @@
-
-
-function Logo() {
+function Logo({currectRouteNumber}) {
     return (
-        <img src="/Logo.png" alt="" height={400} width={400}/>
+        <img src={currectRouteNumber===2 ?"/Logo_dark.png" : "/Logo.png"} alt="" height={350} width={350}/>
     )
 }
 
