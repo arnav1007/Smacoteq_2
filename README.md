@@ -8,3 +8,5 @@ Branch v2_refactoring...........has the setup to keep page inside the PageLayout
 
 Dev Dependency is:-
 1)Prettire from https://www.npmjs.com/package/prettier
+
+sanket:changes readme.md
