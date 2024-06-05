@@ -1,11 +1,6 @@
 import { NavLink, useParams } from "react-router-dom";
 
-<<<<<<< HEAD
-function CustomFooter({ active }) {
-   
-=======
 function CustomFooter({ active, page3 }) {
->>>>>>> v1
   return (
     <footer className="flex w-full items-center justify-between pl-14 align-middle text-[13px] text-footer_light">
       <img src="/lang.png" alt="" height={30} width={30} />
