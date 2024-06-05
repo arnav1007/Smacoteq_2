@@ -1,18 +1,7 @@
 import { NavLink, useParams } from "react-router-dom";
 
 function CustomFooter({ active }) {
-    const{id} = useParams();
-    console.log('id caught from CustomHeader.jsx', id)
-
-    
-
-    // if(id === 'WhatWeDo'){
-    //     setTheme('dark')
-    // }else{
-    //     setTheme('light')
-    // }
-    // console.log(theme)
-
+   
   return (
     <footer className="flex w-full items-center justify-between pl-14 align-middle text-[13px] text-footer_light">
       <img src="/lang.png" alt="" height={30} width={30} />

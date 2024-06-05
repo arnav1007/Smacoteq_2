@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
   Navigate,
+  useParams,
 } from "react-router-dom";
 import "./App.css";
 import Page1 from "./Pages/Page1";
@@ -21,6 +22,7 @@ function Pages() {
 }
 
 function App() {
+
   return (
     <Router>
       <AppLayout>
@@ -35,7 +37,7 @@ function App() {
               </PageLayout>
             }
           />
-          <Route path="/ARTH.BHIM/:id" element={<Page3 />}>
+          <Route path="/ARTH.BHIM/:id" >
             <Route path="WhatWeDo" element={<Page3 />} />
           </Route>
         </Routes>

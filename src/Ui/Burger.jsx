@@ -1,6 +1,6 @@
 function Burger() {
   return (  
-    <img src="/Menu2.png" alt="" height={50} width={25} />
+    <img src="/MenuIcon.png" alt="" height={50} width={25} />
   
   )
 }
