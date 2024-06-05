@@ -40,7 +40,7 @@ function PageLayout({ children, number }) {
       <div className="h-full w-1/12">
         <div className="relative flex h-full w-full items-center justify-center align-middle">
           <PageNumber number={number} />
-          <Maritime />
+          <Maritime text="Maritime"/>
         </div>
       </div>
     </div>

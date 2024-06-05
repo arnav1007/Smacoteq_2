@@ -4,7 +4,7 @@ function Maritime({text}) {
           <div className=" h-fit w-fit transform translate-y-12 -translate-x-4  rotate-[-90deg] flex items-center gap-3 ">
             <div className="h-[2px] w-20 bg-light_text"> </div>
             <div className="text-maritime_color tracking-wider">
-              <h1 className="text-ms">{text}</h1>
+              <h1 className={` ${text==="Maritime" ? "text-white" : "text-blockchain"} text-sm`} >{text}</h1>
             </div>
           </div>
         </div>
