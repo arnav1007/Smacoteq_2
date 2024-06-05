@@ -1,6 +1,6 @@
-function Burger() {
+function Burger({currectRouteNumber}) {
   return (  
-    <img src="/MenuIcon.png" alt="" height={50} width={25}/>
+    <img src={currectRouteNumber===2 ? "/Menu_dark.png" :"/MenuIcon.png"} alt="" height={50} width={25}/>
   
   )
 }
