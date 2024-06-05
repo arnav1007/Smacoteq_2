@@ -8,8 +8,7 @@ function AppLayout({children , currectRouteNumber }) {
     return (
         <div className="h-[100dvh] w-[100dvw] bg-main overflow-y-auto overflow-x-hidden relative">
             <Header currectRouteNumber={currectRouteNumber}/>
-            {children}
-            
+            {children} 
         </div>
     )
 }
