@@ -1,14 +1,19 @@
 import { useParams } from "react-router";
 import CustomFooter from "../Components/CustomFooter";
+import Button from "../Ui/Button";
+import Maritime from "../Ui/Maritime";
 
 function Page3() {
   return (
-    <div className="bg-page3 h-[100dvh] w-screen pt-[10vh]">
+    <div className="bg-page3 h-[100dvh] w-screen pt-[10vh] relative overflow-y-hidden">
+      <div className="h-[300px] w-[90px] absolute right-5 bottom-1">
+        <Maritime text="BLOCKCHAIN"/>
+      </div>
       <div className="flex h-[80dvh] w-full ">
         <div className=" grid h-full w-4/12 place-content-center my-auto">
           <img src="/Character.png" alt="" />
         </div>
-        <div className=" overflow-y-auto text-light_text_page3 h-full w-8/12 font-ibarra pt-[7dvh]">
+        <div className=" overflow-y-auto text-light_text_page3 h-full w-8/12 font-ibarra pt-[7dvh] pr-20">
           <h1 className="text-main text-2xl my-3">eBL-Electronic Bill of Landing Service</h1>
           <div>
             <p>
@@ -50,8 +55,11 @@ function Page3() {
           </p>
 
           <p className="my-5">
-            Button stating LAUNCH APP(ebl.smacoteq.com)
-            (https://ebl.smacoteq.com)-Redirecting to the platform
+            <Button type={"small"} to={"https://www.google.com/"}>
+              LAUNCH APP
+            </Button>
+            {/* Button stating LAUNCH APP(ebl.smacoteq.com)
+            (https://ebl.smacoteq.com)-Redirecting to the platform */}
           </p>
         </div>
       </div>
