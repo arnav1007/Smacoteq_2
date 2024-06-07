@@ -5,7 +5,7 @@ import Maritime from "../Ui/Maritime";
 
 function Page3() {
   return (
-    <div className="bg-page3 h-[100dvh] w-screen pt-[10vh] relative">
+    <div className="bg-page3 h-[100dvh] w-screen pt-[10vh] relative overflow-y-hidden">
       <div className="h-[300px] w-[90px] absolute right-5 bottom-1">
         <Maritime text="BLOCKCHAIN"/>
       </div>
