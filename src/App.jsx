@@ -2,10 +2,11 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import "./App.css";
 import Page1 from "./Pages/Page1";
 import Page2 from "./Pages/Page2";
-import Page3 from "./Pages/Page3";
+import PageX from "./Pages/PageX";
 import AppLayout from "./Ui/AppLayout";
 import PageLayout from "./Ui/PageLayout";
 import { useEffect, useState } from "react";
+import Page3 from "./Pages/Page3";
 
 const routeMapping = {
   "/ARTH.BHUMI": 1,
@@ -32,10 +33,11 @@ function App() {
             <PageLayout>
               <Page1 />
               <Page2 />
+              <Page3 />
             </PageLayout>
           }
         />
-        <Route path="/ARTH.BHUMI/WhatWeDo" element={<Page3 />}></Route>
+        <Route path="/ARTH.BHUMI/WhatWeDo" element={<PageX />}></Route>
       </Routes>
     </AppLayout>
   );

@@ -19,6 +19,7 @@ export default {
         light_text:"#5B5C5D",
         footer_light:"#7C7D7D",
         page3:"#F7F7F7",
+        page1_app:"#F7F7F7",
         light_text_page3:"#B3B4B4",
         blockchain:'#4D4E4E'
 

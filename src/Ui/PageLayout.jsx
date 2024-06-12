@@ -3,7 +3,7 @@ import Maritime from "./Maritime";
 import PageNumber from "./PageNumber";
 import { useRef, useEffect } from "react";
 
-function PageLayout({ children, number }) {
+function PageLayout({ children }) {
   const scrollRef = useRef(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ function PageLayout({ children, number }) {
           <div className="h-full w-8/12 overflow-y-hidden" ref={scrollRef}>
             {children}
           </div>
-          <div className="h-full w-4/12"></div>
+          <div className="h-full w-4/12 "></div>
         </div>
         <div className="flex h-1/6 w-8/12 justify-center align-middle">
           <CustomFooter active={1} />
