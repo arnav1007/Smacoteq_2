@@ -8,7 +8,7 @@ function Header({ currectRouteNumber }) {
   console.log('currectRouteNumber form Header', currectRouteNumber)
   return (
     <div
-      className={`fixed top-0 z-30 flex h-[10dvh] w-full items-center justify-between ${currectRouteNumber === 2 ? 'bg-white' : 'bg-main'} px-12 align-middle`}
+      className={`fixed top-0 z-30 flex h-[10dvh] w-full items-center justify-between ${currectRouteNumber === 2 ? 'rgb(229, 231, 235)' : 'bg-main'} px-12 align-middle`}
     >
       <NavLink to="/">
         <Logo currectRouteNumber={currectRouteNumber} />
