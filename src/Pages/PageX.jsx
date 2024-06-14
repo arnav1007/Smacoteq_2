@@ -26,18 +26,18 @@ function PageX() {
               <p>supply chains leveraging technologies at our disposal in the best way possible.</p>
             </div>
 
-            <div className="mt-8 mx-10 text-[15px] font-['Ibbara_Real_Nova']">
+            <div className="mt-8 mx-10 text-[15px] font-['Ibbara_Real_Nova'] text-slate-600">
               <p>
-                <span className="text-black">Commodity Tokenization:</span> Quality assured commodities are <span className="text-black">Tokenized on the Polygon </span>Blockchain network. Ownership of these commodities is symbolized by NFTs on the Blockchain.
+                <span className="text-black font-semibold">Commodity Tokenization:</span> Quality assured commodities are <span className="text-black font-semibold">Tokenized on the Polygon </span>Blockchain network. Ownership of these commodities is symbolized by NFTs on the Blockchain.
               </p>
               <p>
-                <span className="text-black">Electronic Bill of Lading:</span> Ensure secure and reliable trade with our digitized system that<span className="text-black"> lowers overhead cost </span>of paper and reduces unnecessary demurrage and detention charges of holding cargo due to delay in documentation.
+                <span className="text-black font-semibold">Electronic Bill of Lading:</span> Ensure secure and reliable trade with our digitized system that<span className="text-black font-semibold"> lowers overhead cost </span>of paper and reduces unnecessary demurrage and detention charges of holding cargo due to delay in documentation.
               </p>
               <p>
-                <span className="text-black">Trade Finance Facilitation:</span> Import and Export Finance through <span className="text-black">AntelopeFi.xyz </span>which makes it possible through systems built on top of <span className="text-black"> De-Fi </span>(Decentralized finance) Protocols.
+                <span className="text-black font-semibold">Trade Finance Facilitation:</span> Import and Export Finance through <span className="text-black font-semibold">AntelopeFi.xyz </span>which makes it possible through systems built on top of <span className="text-black font-semibold"> De-Fi </span>(Decentralized finance) Protocols.
               </p>
               <p>
-                <span className="text-black">Cross-border Payment Settlements:</span> Make International Financial transactions seamless without hefty fees with our inclusive and efficient payment system.
+                <span className="text-black font-semibold">Cross-border Payment Settlements:</span> Make International Financial transactions seamless without hefty fees with our inclusive and efficient payment system.
               </p>
             </div>
           </div>

@@ -21,7 +21,8 @@ export default {
         page3:"#F7F7F7",
         page1_app:"#F7F7F7",
         light_text_page3:"#B3B4B4",
-        blockchain:'#4D4E4E'
+        blockchain:'#4D4E4E',
+        new_light_color:'#b9b9b9',
 
       }
     },

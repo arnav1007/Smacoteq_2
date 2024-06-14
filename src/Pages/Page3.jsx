@@ -13,10 +13,10 @@ function Page3() {
           <div className="flex h-full w-1/12 justify-center align-middle">
             <img src="/vertical_line.png" alt="" className="h-3/6" />
           </div>
-          <div className="flex h-full w-11/12 flex-col gap-3 font-roboto text-light_text">
+          <div className="flex h-full w-11/12 flex-col gap-3 font-roboto text-new_light_color">
             <p>Onboard Swiflty with E-mail & Business Details</p>
             <p>
-              Create <span className="text-slate-100">Decentralised ID</span>{" "}
+              Create <span className="text-slate-100 font-semibold">Decentralised ID</span>{" "}
               DID & Wallets
             </p>
             <p>
@@ -24,24 +24,24 @@ function Page3() {
               proposals
             </p>
             <p>
-              <span className="text-slate-100">Buyer Dashboard: </span>Browse
+              <span className="text-slate-100 font-semibold">Buyer Dashboard: </span>Browse
               the marketplace, create and manage buy requests
             </p>
             <p>
               {" "}
-              <span className="text-slate-100">Supplier Dashboard: </span>
+              <span className="text-slate-100 font-semibold">Supplier Dashboard: </span>
               Tokenize Commodities & manage listingd with ease
             </p>
             <p>
               {" "}
-              <span className="text-slate-100">Logistic Dashboard: </span>Manage
+              <span className="text-slate-100 font-semibold">Logistic Dashboard: </span>Manage
               trades, Generate electronic Bill of Lading (eBL)
             </p>
 
             <p>
               Experience seamless digitization, verification & transfer of
               documentations with{" "}
-              <span className="text-slate-100">
+              <span className="text-slate-100 font-semibold">
                 {" "}
                 Secure Electronic Bill of Lading(eBL) for your trades{" "}
               </span>{" "}
