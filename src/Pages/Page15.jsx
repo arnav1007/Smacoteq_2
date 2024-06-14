@@ -8,7 +8,7 @@
 
 function Page2() {
     return (
-      <div className="align-start mb-4 flex h-fit flex-col items-start justify-center pl-12 pt-[13dvh] relative z-10">
+      <div className="align-start mb-4 flex h-fit flex-col items-start justify-center pl-12 pt-15 relative z-10">
         <h3 className="mb-5 font-ibarra text-slate-100 text-3xl">
           <p>Smacoteq eBL Services:</p> 
           <p>Transforming Global Trade with Smart Ports</p> 
@@ -21,7 +21,7 @@ function Page2() {
           <li>Our platform ensures the <span className="text-slate-100 font-semibold">smooth management of electronic Bills of Lading (eBL)</span> </li>
           <li> and other crucial trade documents, available as a dedicated microservice </li>
            <li>  at <a href="https://ebl.smacoteq.com" className="no-underline italic font-semibold">ebl.smacoteq.com</a>.</li>
-          <li className="mt-5"> <span className="text-slate-100 font-semibold"> Partnering with TradeTrust from Singapore,</span> we enable smart port functionalities,</li>
+          <li className="mt-5"> <span className="text-slate-100 font-semibold"> Partnering with TradeTrust from Singapore,</span> We enable smart port functionalities,</li>
           <li>  amplifying sustainability and reducing trade costs through innovative digital solutions.</li>
           
         </ul>
